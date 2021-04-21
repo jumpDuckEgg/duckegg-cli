@@ -1,0 +1,19 @@
+{
+  "name": "@duckegg-cli/utils",
+  "version": "1.0.0",
+  "description": "duckegg-cli utils",
+  "author": "jumpduckegg <1197369402@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"run tests from root\""
+  }
+}

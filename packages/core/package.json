@@ -1,0 +1,22 @@
+{
+  "name": "@duckegg-cli/core",
+  "version": "1.0.0",
+  "description": "duckegg-cli core",
+  "author": "jumpduckegg <1197369402@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"run tests from root\""
+  },
+  "dependencies": {
+    "@duckegg-cli/utils": "^1.0.0"
+  }
+}
