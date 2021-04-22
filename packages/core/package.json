@@ -6,6 +6,9 @@
   "homepage": "",
   "license": "ISC",
   "main": "lib/core.js",
+  "bin": {
+    "duckegg-cli": "bin/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -18,5 +21,6 @@
   },
   "dependencies": {
     "@duckegg-cli/utils": "^1.0.1"
-  }
+  },
+  "gitHead": "94c6283fb319a375c76771537980344ce282e9f4"
 }
