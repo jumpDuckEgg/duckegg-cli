@@ -1,6 +1,6 @@
 {
   "name": "@duckegg-cli/core",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "duckegg-cli core",
   "author": "jumpduckegg <1197369402@qq.com>",
   "homepage": "",
@@ -20,7 +20,7 @@
     "test": "echo \"run tests from root\""
   },
   "dependencies": {
-    "@duckegg-cli/utils": "^1.0.2"
+    "@duckegg-cli/utils": "^1.0.3"
   },
   "gitHead": "dc11c823f00e877ff873ec30222f128e92f80809",
   "publishConfig": {
