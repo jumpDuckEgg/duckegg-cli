@@ -22,5 +22,8 @@
   "dependencies": {
     "@duckegg-cli/utils": "^1.0.2"
   },
-  "gitHead": "dc11c823f00e877ff873ec30222f128e92f80809"
+  "gitHead": "dc11c823f00e877ff873ec30222f128e92f80809",
+  "publishConfig": {
+    "access": "public"
+  }
 }
