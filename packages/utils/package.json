@@ -1,6 +1,6 @@
 {
   "name": "@duckegg-cli/utils",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "duckegg-cli utils",
   "author": "jumpduckegg <1197369402@qq.com>",
   "homepage": "",
@@ -16,5 +16,5 @@
   "scripts": {
     "test": "echo \"run tests from root\""
   },
-  "gitHead": "94c6283fb319a375c76771537980344ce282e9f4"
+  "gitHead": "dc11c823f00e877ff873ec30222f128e92f80809"
 }

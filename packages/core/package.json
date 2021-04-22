@@ -1,6 +1,6 @@
 {
   "name": "@duckegg-cli/core",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "duckegg-cli core",
   "author": "jumpduckegg <1197369402@qq.com>",
   "homepage": "",
@@ -22,5 +22,5 @@
   "dependencies": {
     "@duckegg-cli/utils": "^1.0.2"
   },
-  "gitHead": "94c6283fb319a375c76771537980344ce282e9f4"
+  "gitHead": "dc11c823f00e877ff873ec30222f128e92f80809"
 }
