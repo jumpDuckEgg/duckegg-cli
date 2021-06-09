@@ -1,0 +1,38 @@
+{
+  "name": "@duckegg-cli/package",
+  "version": "1.0.0",
+  "description": "duckegg-cli npm modules",
+  "author": "jumpduckegg <1197369402@qq.com>",
+  "homepage": "https://github.com/jumpDuckEgg/duckegg-cli#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jumpDuckEgg/duckegg-cli.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/jumpDuckEgg/duckegg-cli/issues"
+  },
+  "dependencies": {
+    "@duckegg-cli/format-path": "file:../../utils/format-path",
+    "@duckegg-cli/get-npm-info": "file:../../utils/get-npm-info",
+    "@duckegg-cli/utils": "file:../../utils/utils",
+    "fs-extra": "^10.0.0",
+    "npminstall": "^4.11.0",
+    "path-exists": "^4.0.0",
+    "pkg-dir": "^5.0.0"
+  }
+}
