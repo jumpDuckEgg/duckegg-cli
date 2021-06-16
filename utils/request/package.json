@@ -1,7 +1,7 @@
 {
-  "name": "@duckegg-cli/init",
-  "version": "1.0.0",
-  "description": "duckegg-cli init",
+  "name": "@duckegg-cli/request",
+  "version": "1.0.3",
+  "description": "> TODO: description",
   "author": "jumpduckegg <1197369402@qq.com>",
   "homepage": "https://github.com/jumpDuckEgg/duckegg-cli#readme",
   "license": "ISC",
@@ -27,13 +27,6 @@
     "url": "https://github.com/jumpDuckEgg/duckegg-cli/issues"
   },
   "dependencies": {
-    "@duckegg-cli/command": "file:../../models/command",
-    "@duckegg-cli/package": "file:../../models/package",
-    "@duckegg-cli/log": "file:../../utils/log",
-    "@duckegg-cli/request": "file:../../utils/request",
-    "@duckegg-cli/utils": "file:../../utils/utils",
-    "fs-extra": "^10.0.0",
-    "inquirer": "^8.1.0",
-    "semver": "^7.3.5"
+    "axios": "^0.21.1"
   }
 }
