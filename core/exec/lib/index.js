@@ -1,10 +1,10 @@
 'use strict';
 
 const path = require('path');
-const cp = require('child_process');
 
 const Package = require('@duckegg-cli/package');
 const log = require('@duckegg-cli/log');
+const {exec: spawn} = require('@duckegg-cli/utils');
 
 const SETTINGS = {
     'init': '@duckegg-cli/init'
@@ -83,15 +83,6 @@ async function exec() {
             log.error(error.message);
         }
     }
-}
-
-function spawn(command, args, options) {
-    const win32 = process.platform  === 'win32';
-
-    const cmd = win32 ? 'cmd' : command;
-    // '/c' 代表静默执行;
-    const cmdArgs = win32 ? ['/c'].concat(command, args) : args;
-    return cp.spawn(cmd, cmdArgs, options || {});
 }
 
 module.exports = exec;

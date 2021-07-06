@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "@duckegg-cli/package": "file:../../models/package",
-    "@duckegg-cli/log": "file:../../utils/log"
+    "@duckegg-cli/log": "file:../../utils/log",
+    "@duckegg-cli/utils": "file:../../utils/utils"
   }
 }
